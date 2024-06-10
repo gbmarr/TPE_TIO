@@ -1,0 +1,115 @@
+.fa-solid {
+    color: rgb(84, 134, 211);
+}
+
+.fa-brands {
+    color: rgb(84, 134, 211);
+}
+
+.fa-telegram {
+    color: rgb(84, 134, 211);
+}
+
+.fa-house {
+    color: rgb(84, 134, 211);
+}
+
+.fa-regular {
+    color: rgb(84, 134, 211);
+}
+
+.fa-globe {
+    color: rgb(84, 134, 211);
+}
+
+.underlined {
+   
+    border-bottom: 1px solid rgb(84, 134, 211);
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#personal-card {
+    display: flex;
+    flex-flow: row nowrap;
+    border: 2px solid black;
+}
+
+#card-left {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 25rem;
+    height: 25rem;
+    color: white;
+    background-color: black;
+}
+
+#card-left-top {
+    display: flex;
+    flex-direction:column;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+#card-left-top-header {
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 2px;
+}
+
+#card-left-top-header-name {
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+#card-left-top-header-last-name {
+    display: flex;
+    align-items: flex-end;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+#card-left-top-body-occupation {
+    color:rgb(21, 127, 197);
+}
+
+#card-left-bot {
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 2px;
+}
+
+#card-left-bot-icons {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+#card-left-bot-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 1rem;
+    width: 75%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#card-right {
+    width: 25rem;
+    height: 25rem;
+    background-image: url("../img/personal-card.png");
+}

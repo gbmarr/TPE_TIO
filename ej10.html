@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ej10.css">
+    <script src="https://kit.fontawesome.com/eab5e5b171.js" crossorigin="anonymous"></script>
+    <title>ej10</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="input-name"></label>
+            <input
+                id="input-name" 
+                type="text"
+                name="input-name"
+                placeholder="nombre">
+            <label for="input-last-name"></label>
+            <input
+                id="input-last-name"
+                type="text"
+                name="input-last-name"
+                placeholder="apellido">
+            <label for="input-occupation"></label>
+            <input
+                id="input-occupation"
+                type="text"
+                name="input-occupation"
+                placeholder="profesion">
+            <label for="input-mail"></label> 
+            <input
+                id="input-email"
+                type="email"
+                name="input-email"
+                placeholder="email">
+            <label for="input-tel"></label>
+            <input
+                id="input-tel"
+                type="number"
+                name="input-tel"
+                placeholder="telefono">
+            <label for="input-address"></label>
+            <input
+                id="input-address"
+                type="text"
+                name="input-address"
+                placeholder="direccion">
+            <button type="button" id="btn-generate-personal-card">Generar tarjeta personal</button>
+        </form>
+        
+        <div id="personal-card">
+            <div  id="card-left">
+                <div id="card-left-top">
+                    <div id="card-left-top-header">
+                        <div id="card-left-top-header-name"></div>
+                        <div id="card-left-top-header-last-name"></div>
+                    </div>
+                    <div id="card-left-top-body">
+                        <div id="card-left-top-body-occupation"></div>
+                    </div>
+                </div>
+                <div id="card-left-bot">
+                    <div id="card-left-bot-icons">
+                        <p class="fa-solid fa-envelope"></p>
+                        <p class="fa-solid fa-phone"></p>
+                        <p class="fa-solid fa-house"></p>
+                        <p class="fa-sharp fa-solid fa-globe"></p>
+                    </div>
+                    <div id="card-left-bot-text">
+                        <p id="card-left-bot-text-email" class="underlined"></p>
+                        <p id="card-left-bot-text-tel" class="underlined"></p>
+                        <p id="card-left-bot-text-address" class="underlined"></p>
+                        <p class="underlined">www.sarasa.com.ar</p>
+                    </div>
+                </div>
+            </div>
+            <div id="card-right"></div>
+        </div>
+    </div>
+    <script src="js/ej10.js"></script>
+</body>
+</html>
